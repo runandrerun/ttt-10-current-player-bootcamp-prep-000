@@ -1,5 +1,6 @@
 def turn_count(board)
-  turns = []
+  move_count = []
+  turns.each do ||
 end
 
 def current_player
