@@ -1,10 +1,9 @@
 def turn_count(board)
-  move_count = []
+  move_count = 0
   turns.each do |player|
     if player == "X" || "O"
-      move_count.push(1)
+      move_count += 1
     end
-    move_count.length.to_i
   end
 end
 
