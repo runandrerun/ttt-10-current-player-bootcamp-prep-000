@@ -5,6 +5,7 @@ def turn_count(board)
       move_count.push(1)
     end
     move_count.length.to_i
+  end
 end
 
 def current_player
