@@ -1,9 +1,7 @@
 def turn_count(board)
   turns = 0
   counter += 1
-  basket.each do |apple|
-    puts "Taking out #{apple}"
-end
+  if board 
 end
 
 def current_player
